@@ -1,0 +1,812 @@
+    /* MEDIA QUERY */
+@media only screen and (max-width: 2560px){
+html{
+    scroll-padding-top: 31.5rem;
+} 
+.about-new{
+    height: 35vh;
+}
+}
+
+@media only screen and (max-width: 1199px){
+html{
+    scroll-padding-top: 17.5rem;
+} 
+.collection-img{
+    height: 500px;
+    width: 350px;
+}
+.line{
+    top: 18%;
+    height: 60px;
+}
+.about-new{
+    padding: 0px 20px;
+    height: 36vh;
+}
+.about-new h2{
+    font-size: 38px;
+}
+.about-new h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+/* CARDS */
+.card1{
+    height: 550px;
+}
+.card1:hover{
+    height: 580px;
+}
+.card2{
+    height: 550px;
+}
+.card2:hover{
+    height: 580px;
+}
+.card3{
+    height: 550px;
+}
+.card3:hover{
+    height: 580px;
+}
+.down{
+    top: 60%;
+}
+.down h5{
+    font-size: 18px
+}
+/* zlatan */
+.zlatan-img1{
+    height: 350px;
+}
+.zlatan-img1:hover{
+    height: 350px;
+    background-position: center;
+}
+.zlatan-img2{
+    height: 350px;
+}
+.zlatan-img2:hover{
+    height: 350px;
+    background-position: center;
+}
+.zlatan-img3{
+    height: 350px;
+}
+.zlatan-img3:hover{
+    height: 350px;
+    background-position: center;
+}
+.zlatan-img4{
+    height: 350px;
+}
+.zlatan-img4:hover{
+    height: 350px;
+    background-position: center;
+}
+.zlatan-content h5{
+    font-size: 19px;
+}
+}
+
+@media only screen and (max-width:991px){
+/* LOGO */
+.name{
+    font-size: 200px;
+}
+/* MAIN */
+.new-collection{
+    padding: 40px 0;
+}
+.view-all{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+.line{
+    top: 32%;
+    height: 55px;
+    right: 65%;
+    width: 175px;
+}
+.collection-img{
+    margin-bottom: 100px;
+}
+.zara-img{
+    margin: 0 0 20px 0;
+}
+.about-new{
+    padding: 0 20px 0 173px;
+    height:auto;
+}
+.about-new h2{
+    font-size: 37px;
+}
+.about-new h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.sale{
+    padding: 40px 0;
+}
+.timer{
+    width: auto;
+    height: 500px;
+}
+.timer h4{
+    font-size: 25px;
+}
+.timer h2{
+    font-size: 50px;
+}
+.timer h5{
+    font-size: 18px;
+}
+.timer p{
+    font-size: 23px;
+}
+.btn1{
+    font-size: 11px;
+}
+.timer h6{
+    font-size: 11px;
+}
+/* CARDS */
+.card1{
+    height: 495px;
+}
+.card1:hover{
+    height: 507px;
+}
+.card2{
+    height: 495px;
+}
+.card2:hover{
+    height: 507px;
+}
+.card3{
+    height: 495px;
+}
+.card3:hover{
+    height: 507px;
+}
+.down{
+    top: 56%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.down h5{
+    font-size: 15px;
+}
+.down p{
+    margin-bottom: 3px;
+}
+.card-btn{
+    margin-bottom: 10px;
+}
+.contact-text{
+    margin-bottom: 50px;
+}
+}
+
+@media only screen and (max-width:767px){
+/* logo */
+.name{
+    font-size: 150px;
+}
+/* main */
+.new h2{
+    font-size: 80px;
+    line-height: 80px;
+}
+.new h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.zara img{
+    margin: 0 0 40px 0;
+    height: 350px;
+    width: 370px;
+}
+.about-new h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.about-new h5{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.view-all{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.timer{
+    height: 430px;
+}
+.timer h4{
+    font-size: 20px;
+}
+.timer h2{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.timer h5{
+    font-size: 18px;
+}
+.timer p{
+    font-size: 25px;
+}
+.column-row{
+    height: 170px;
+}
+.btn1{
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+/* CARDS */
+.new-arrivals{
+    font-size: 35px;
+}
+.card1{
+    height: 650px;
+    margin: 0 auto 40px;
+    width: 330px;
+}
+.card1:hover{
+    height: 650px;
+}
+.card2{
+    height: 650px;
+    margin: 0 auto 40px;
+    width: 330px;
+}
+.card2:hover{
+    height: 650px;
+}
+.card3{
+    height: 650px;
+    margin: 0 auto 40px;
+    width: 330px;
+}
+.card3:hover{
+    height: 650px;
+}
+.down{
+    top: 63%;
+    height: 250px;
+}
+.card-btn{
+    margin-bottom: 20px;
+}
+.outfit h2{
+    font-size: 36px;
+    line-height: 25px;
+}
+.outfit h3{
+    font-size: 51px;
+    margin-bottom: 40px;
+}
+.men{
+    height: 380px;
+    width: auto;
+}
+.women{
+    height: 380px;
+    width: auto;
+    float: none;
+}
+.men-women{
+    height: 320px;
+}
+.collection-btn{
+    font-size: 17px;
+    margin: 0 0 0 -10px;
+}
+/* Zlatan */
+.card{
+    background-color: transparent;
+}
+.play-video{
+    padding: 0;
+}
+.zlatan-img1{
+    height: 450px;
+    width: 330px;
+    margin: auto;
+}
+.zlatan-img1:hover{
+    height: 450px;
+}
+.zlatan-img2{
+    height: 450px;
+    width: 330px;
+    margin: auto;
+}
+.zlatan-img2:hover{
+    height: 450px;
+}
+.zlatan-img3{
+    height: 450px;
+    width: 330px;
+    margin: auto;
+}
+.zlatan-img3:hover{
+    height: 450px;
+}
+.zlatan-img4{
+    height: 450px;
+    width: 330px;
+    margin: auto;
+}
+.zlatan-img4:hover{
+    height: 450px;
+}
+.zlatan-content{
+    width: 330px;
+    margin: auto;
+}
+/* FOOTER */
+.footer{
+    padding: 60px 0;
+}
+}
+
+@media only screen and (max-width:575px){
+section{
+    padding: 50px 30px;
+}
+.pad-sm-0{
+    padding: 0;
+}
+.name{
+    font-size: 110px;
+}
+.new-collection{
+    padding:40px 30px;
+}
+.new{
+    padding: 0;
+}
+.collection-img{
+    height: 430px;
+    width: 280px;
+    box-shadow: 30px 30px black;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.line{
+    top: 31%;
+    right: 68%;
+    height: 30px;
+    width: 100px;
+}
+.zara-img{
+    width: auto;
+    height: 330px;
+    margin: 0 0 30px 0;
+}
+.about-new{
+    padding: 0 0 0 30px;
+}
+.sale{
+    padding: 40px 30px;
+}
+.timer{
+    height: 330px;
+}
+.column-row{
+    height: 130px;
+}
+.timer h4{
+    font-size: 16px;
+}
+.timer h2{
+    font-size: 35px;
+}
+.timer h5{
+    font-size: 15px;
+}
+.timer p{
+    font-size: 20px;
+}
+.btn1{
+    font-size: 9px;
+    padding: 5px 8px;
+    letter-spacing:0;
+    margin: 0 3px 10px;
+}
+.timer h6{
+    font-size: 9px;
+}
+.men{
+    height: 260px;
+}
+.women{
+    height: 260px;
+}
+.men-women{
+    height: 250px;
+}
+.men-women h2{
+    font-size: 22px;
+}
+.collection-btn{
+    font-size: 15px;
+    margin: 0 0 0 -6px;
+}
+.outfit h2{
+    font-size: 31px;
+}
+.outfit h3{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.para{
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.selected{
+    font-size: 25px;
+}
+.zlatan{
+    font-size: 29px;
+    letter-spacing: 2px;
+}
+.contact-text{
+    margin-bottom: 30px;
+}
+.contact-text h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.contact-text p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.map{
+    height: 330px;
+}
+/* FOOTER */
+.footer{
+    padding: 40px 0;
+    font-size: 12px;
+}
+}
+
+@media only screen and (max-width:425px){
+/* LOGO */
+.logo{
+    padding: 0;
+}
+.name{
+    font-size: 100px;
+    height: 100vh;
+    align-items: center;
+}
+/* MAIN */
+.new h5{
+    font-size: 13px;
+}
+.new h2{
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+.line{
+    top: 30%;
+}
+.collection-img{
+    height: 390px;
+}
+.zara-img{
+    height: 310px;
+}
+.about-new h5{
+    margin-bottom: 14px;
+}
+.about-new{
+    padding: 0;
+}
+.timer{
+    height: 285px;
+}
+.timer h4{
+    font-size: 14px;
+}
+.timer h2{
+    font-size: 30px
+}
+.timer h5{
+    font-size: 15px;
+}
+.timer p{
+    font-size: 18px;
+}
+.column-row{
+    height: 120px;
+}
+.btn1{
+    font-size: 8px;
+    padding: 5px 7px;
+}
+.timer h6{
+    font-size: 7px;
+}
+.card1{
+    height: 530px;
+    width: auto;
+}
+.card1:hover{
+    height: 600px;
+    margin: 0 auto 10px;
+}
+.card2{
+    height: 530px;
+    width: auto;
+    margin: 30px auto;
+}
+.card2:hover{
+    height: 600px;
+    margin: 30px auto 0;
+}
+.card3{
+    height: 530px;
+    width: auto;
+    margin: 40px auto;
+}
+.card3:hover{
+    height: 600px;
+    margin: 40px auto 0;
+}
+.down{
+    height: 240px;
+    top: 60%;
+}
+.down:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.outfit h2{
+    font-size: 25px;
+    line-height: 12px;
+}
+.outfit h3{
+    font-size: 35px;
+}
+.men{
+    height: 230px;
+}
+.women{
+    height: 230px;
+}
+.men-women{
+    height: 210px;
+}
+.men-women h2{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.men-women i{
+    margin: 0 3px 0;
+}
+.collection-btn{
+    font-size: 10px;
+    margin: 0;
+}
+.selected{
+    margin-bottom: 3px;
+    font-size: 21px;
+}
+.zlatan{
+    font-size: 29px;
+    margin-bottom: 3px;
+}
+.para{
+    font-size: 10px;
+}
+.zlatan-img1{
+    height: 430px;
+    width: auto;
+    margin: 0;
+}
+.zlatan-img1:hover{
+    height: 430px;
+}
+.zlatan-img2{
+    height: 430px;
+    width: auto;
+    margin: 0;
+}
+.zlatan-img2:hover{
+    height: 430px;
+}
+.zlatan-img3{
+    height: 430px;
+    width: auto;
+    margin: 0;
+}
+.zlatan-img3:hover{
+    height: 430px;
+}
+.zlatan-img4{
+    height: 430px;
+    width: auto;
+    margin: 0;
+}
+.zlatan-img4:hover{
+    height: 430px;
+}
+.zlatan-content{
+    width: auto;
+    margin: 0;
+}
+.more-btn{
+    font-size: 13px;
+}
+.contact-text{
+    margin-bottom: 25px;
+}
+.contact-text h2{
+    font-size: 16px;
+}
+.contact-text p{
+    font-size: 10px;
+}
+.contact-text button{
+    padding: 7px 15px;
+    font-size: 10px;
+}
+.map{
+    height: 270px;
+}
+/* FOOTER */
+.footer{
+    font-size: 11px;
+}
+}
+
+@media only screen and (max-width:375px){
+    /* LOGO */
+html{
+    scroll-padding-top: 11.5rem;
+} 
+.name{
+    font-size: 80px;
+}
+/* MAIN */
+.new h5{
+    font-size: 11px;
+}
+.new h2{
+    font-size: 55px;
+    line-height: 60px;
+}
+.new h4{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.view-all{
+    font-size: 10px;
+    padding: 8px 15px;
+}
+.collection-img{
+    height: 365px;
+    width: auto;
+    box-shadow: 25px 25px black;
+}
+.line{
+    top: 27%;
+    right: 71%;
+    height: 25px;
+    width: 80px;
+}
+.zara-img{
+    height: 250px;
+}
+.about-new h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.about-new h5{
+    font-size: 7px;
+    margin-bottom: 11px;
+}
+.timer{
+    height: 230px;
+}
+.timer h4{
+    font-size: 12px;
+}
+.timer h2{
+    font-size: 25px;
+}
+.timer h5{
+    font-size: 14px;
+}
+.timer p{
+    font-size: 17px;
+}
+.column-row{
+    height: 80px;
+}
+.btn1{
+    font-size: 7px;
+    padding: 5px 5px;
+}
+.card-btn{
+    margin-bottom: 10px;
+    font-size: 10px;
+    height: 30px;
+}
+.down{
+    top: 57%;
+}
+.card1:hover{
+    height: 530px;
+}
+.card2:hover{
+    height: 530px;
+}
+.card3:hover{
+    height: 530px;
+}
+.outfit h3{
+    font-size: 30px;
+}
+.men-women{
+    height: 177px;
+}
+.men-women h2{
+    font-size: 16px;
+}
+.collection-btn{
+    font-size: 9px;
+}
+.men{
+    height: 190px;
+}
+.women{
+    height: 190px;
+}
+.zlatan-btn{
+    font-size: 10px;
+}
+.zlatan-img1{
+    height: 350px;
+}
+.zlatan-img1:hover{
+    height: 350px;
+}
+.zlatan-img2{
+    height: 350px;
+}
+.zlatan-img2:hover{
+    height: 350px;
+}
+.zlatan-img3{
+    height: 350px;
+}
+.zlatan-img3:hover{
+    height: 350px;
+}
+.zlatan-img4{
+    height: 350px;
+}
+.zlatan-img4:hover{
+    height: 350px;
+}
+.contact-text h2{
+    font-size: 12px;
+}
+.contact-text p{
+    font-size: 8px;
+}
+.contact-text button{
+    font-size: 8px;
+}
+.map{
+    height: 240px;
+}
+}
