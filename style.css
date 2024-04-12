@@ -52,6 +52,10 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+html{
+    scroll-padding-top: 39rem;
+}
+
 /* LOGO */
 .logo{
     position: relative;
