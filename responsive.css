@@ -1,17 +1,23 @@
     /* MEDIA QUERY */
 @media only screen and (max-width: 2560px){
-html{
+/* html{
     scroll-padding-top: 31.5rem;
-} 
+}  */
 .about-new{
     height: 35vh;
+}
+.line{
+    top: 17%;
+    height: 55px;
+    right: 42%;
+    width: 175px;
 }
 }
 
 @media only screen and (max-width: 1199px){
-html{
+/* html{
     scroll-padding-top: 17.5rem;
-} 
+}  */
 .collection-img{
     height: 500px;
     width: 350px;
@@ -669,9 +675,9 @@ section{
 
 @media only screen and (max-width:375px){
     /* LOGO */
-html{
+/* html{
     scroll-padding-top: 11.5rem;
-} 
+}  */
 .name{
     font-size: 80px;
 }
