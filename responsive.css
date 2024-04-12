@@ -12,6 +12,9 @@
     right: 42%;
     width: 175px;
 }
+.about-new{
+    height: 28vh;
+}
 }
 
 @media only screen and (max-width: 1199px){
