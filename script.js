@@ -142,21 +142,54 @@ function li(a, b, n) {
 
 // AUTOPLAY AND PAUSING OF VIDEO
 
-window.addEventListener('load', videoScroll);
-window.addEventListener('scroll', videoScroll);
+// window.addEventListener('load', videoScroll);
+// window.addEventListener('scroll', videoScroll);
+
+// function videoScroll() {
+
+//   if ( document.querySelectorAll('video[autoplay]').length > 0) {
+//     var windowHeight = window.innerHeight,
+//         videoEl = document.querySelectorAll('video[autoplay]');
+
+//     for (var i = 0; i < videoEl.length; i++) {
+//         var thisVideoEl = videoEl[i],
+//             videoHeight = thisVideoEl.clientHeight,
+//             videoClientRect = thisVideoEl.getBoundingClientRect().top;
+
+//         videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ? thisVideoEl.play() : thisVideoEl.pause();
+//     }
+//   }
+// }
+
+
+window.addEventListener('load', checkScreenSize);
+window.addEventListener('resize', checkScreenSize);
+
+function checkScreenSize() {
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    // Execute the videoScroll function only for screens wider than 768px
+    window.addEventListener('scroll', videoScroll);
+  } else {
+    // Remove the event listener if the screen width is less than or equal to 768px
+    window.removeEventListener('scroll', videoScroll);
+  }
+}
 
 function videoScroll() {
-
-  if ( document.querySelectorAll('video[autoplay]').length > 0) {
+  if (document.querySelectorAll('video[autoplay]').length > 0) {
     var windowHeight = window.innerHeight,
         videoEl = document.querySelectorAll('video[autoplay]');
 
     for (var i = 0; i < videoEl.length; i++) {
-        var thisVideoEl = videoEl[i],
-            videoHeight = thisVideoEl.clientHeight,
-            videoClientRect = thisVideoEl.getBoundingClientRect().top;
+      var thisVideoEl = videoEl[i],
+          videoHeight = thisVideoEl.clientHeight,
+          videoClientRect = thisVideoEl.getBoundingClientRect().top;
 
-        videoClientRect <= ( (windowHeight) - (videoHeight*.5) ) && videoClientRect >= ( 0 - ( videoHeight*.5 ) ) ? thisVideoEl.play() : thisVideoEl.pause();
+      if (videoClientRect <= ((windowHeight) - (videoHeight * 0.5)) && videoClientRect >= (0 - (videoHeight * 0.5))) {
+        thisVideoEl.play();
+      } else {
+        thisVideoEl.pause();
+      }
     }
   }
 }
