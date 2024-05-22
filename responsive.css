@@ -17,7 +17,7 @@
 }
 }
 
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 1199px){ 
 /* html{
     scroll-padding-top: 17.5rem;
 }  */
@@ -100,6 +100,9 @@
 }
 
 @media only screen and (max-width:991px){
+html{
+   scroll-padding-top: 33rem ;
+} 
 /* LOGO */
 .name{
     font-size: 200px;
@@ -486,6 +489,9 @@ section{
 }
 
 @media only screen and (max-width:425px){
+html{
+    scroll-padding-top: 18rem;
+} 
 /* LOGO */
 .logo{
     padding: 0;
@@ -678,9 +684,9 @@ section{
 
 @media only screen and (max-width:375px){
     /* LOGO */
-/* html{
-    scroll-padding-top: 11.5rem;
-}  */
+html{
+    scroll-padding-top: 12rem ;
+} 
 .name{
     font-size: 80px;
 }
