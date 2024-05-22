@@ -205,6 +205,8 @@ html{
     height: 390px;
     width: 410px;
     margin: auto;
+    background-position: center;
+    background-size: contain;
 }
 
 .about-new{
