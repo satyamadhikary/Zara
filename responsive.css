@@ -685,7 +685,7 @@ html{
 @media only screen and (max-width:375px){
     /* LOGO */
 html{
-    scroll-padding-top: 15rem ;
+    scroll-padding-top: 17rem ;
 } 
 .name{
     font-size: 80px;
